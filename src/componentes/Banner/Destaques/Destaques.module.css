@@ -1,0 +1,37 @@
+.sombra::after {
+    content: "";
+      position: fixed;
+      top: 0;
+      min-height: 100vh;
+      width: 100vw;
+      background-color: #141414;
+  }
+  
+  .sombraImgVideo {
+    z-index: 1;
+  }
+  
+  .infoContainer {
+ 
+    max-width: 45%;
+    max-height: 300.58px;
+    margin-top: 160px;
+    margin-left: 50px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+ 
+    z-index: 1;
+  }
+  
+  .infoContainer h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+  }
+  
+  .infoContainer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }

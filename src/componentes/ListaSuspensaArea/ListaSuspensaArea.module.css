@@ -1,0 +1,28 @@
+gContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gContainer label {
+    display: block;
+    font-size: 25px;
+    margin-bottom: -60px;
+  }
+  
+  .gContainer select {
+    background-color: #262626;
+    border: 3px solid #fff;
+    color: lightgray;
+    font-size: 25px;
+    border-radius: 10px;
+    height: 70px;
+    width: 570px;
+    padding-left: 4px;
+    margin-top: 33px;
+    text-transform: uppercase;
+  }
+  
+  .placeholderOption {
+    color: lightgray;
+    font-size: 24px;
+  }

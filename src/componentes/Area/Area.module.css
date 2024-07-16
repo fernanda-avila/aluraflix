@@ -1,0 +1,60 @@
+
+
+.areaContainer > h1 {
+    background-color: #6BD1FF;
+    color: #f5f5f5;
+    width: 432px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .areaContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 0px 50px;
+    padding: 20px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    max-height: 400px;
+  }
+  
+  .videoContainer {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 20px 0;
+    height: 560px;
+  }
+  
+  .videoContainer > div {
+    margin-right: 20px;
+    padding-top: 30px;
+  }
+  
+  .videoContainer::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
+
+   
+  }
+  
+  .videoContainer::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  .videoContainer::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 10px;
+  }
+  
+  .videoContainer::-webkit-scrollbar-thumb:hover {
+    background: #2271d123;
+    margin-top: 10px;
+  }
+  

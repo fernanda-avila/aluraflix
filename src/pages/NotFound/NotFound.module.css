@@ -1,0 +1,44 @@
+.container {
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 85vh;
+    border-bottom: 6px solid #302cbf;
+  }
+  
+  .container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #302cbf;
+    margin-top: -90px;
+    margin-left:280px;
+  }
+
+  
+ .div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-right: 500px;
+ }
+  
+  
+  
+
+.imgNotFound {
+    display: block;
+    margin: auto;
+    width: 450px;
+    margin-right: -200px;
+  }
+  
+ .img404 {
+    margin: -250px 100px 0px 300px;
+    width: 60vh;
+    height: 60vh;
+  }
+  
+ 
+
+  

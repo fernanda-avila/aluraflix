@@ -1,0 +1,15 @@
+.incialBg {
+    background-color: #262626;
+  }
+
+  ::-webkit-scrollbar {
+    width: 15px; /* Largura da barra de rolagem */
+    height: 15px; /* Altura da barra de rolagem */
+    background-color: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #262626;
+  border-radius: 5px;
+  border: 2px solid #4680c78e;
+}
