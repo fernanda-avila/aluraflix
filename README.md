@@ -338,28 +338,3 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 Documentação oficial do Swiper: [Swiper Docs](https://swiperjs.com/react)
 
-## 💻 Mini Tutorial de Acesso ao json-server
-### Instale o json-server:
-```
-npm install -g json-server
-```
-
-#### Crie um arquivo db.json com os dados desejados:
-```
-{
-  "videos": [
-    { "id": 1, "imagem": "link_to_image1", "area": "Video Area 1" },
-    { "id": 2, "imagem": "link_to_image2", "area": "Video Area 2" }
-  ]
-}
-```
-#### Inicie o json-server:
-
-```
-json-server --watch db.json --port 8080
-```
-
-#### Acesse a aplicação:
-
-Abra o navegador e vá para http://localhost:8080.
-
