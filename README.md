@@ -178,7 +178,7 @@ yarn install
 ```
 
 ### 🗂️ Estrutura do Projeto
-
+```
 aluraflix/
 
 ├── node_modules/
@@ -235,7 +235,8 @@ aluraflix/
 
 ├── README.md
 
-└── vite.config.js
+└── vite.config.
+```
 
 ### 📄 Páginas Disponíveis
 Página Inicial: Exibe uma lista de vídeos.
