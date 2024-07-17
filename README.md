@@ -115,6 +115,30 @@ Navegação entre páginas.
 
 Página de erro personalizada (404).
 
+Função para converter url automáticamente
+
+A função ```convertToEmbedUrl``` transforma uma URL de vídeo do YouTube que está no formato de visualização padrão (do tipo youtube.com/watch?v=) em uma URL de incorporação (embed) do YouTube. Isso é útil para incorporar vídeos de forma mais integrada e responsiva em páginas da web. Se a URL não corresponder ao formato esperado, a função retorna a URL original sem modificação.
+
+convertToEmbedUrl
+```
+function convertToEmbedUrl(url) {
+    if (url.includes("youtube.com/watch?v=")) {
+      const videoId = url.split("v=")[1];
+      return https://www.youtube.com/embed/${videoId};
+    }
+    return url; 
+  }
+```
+
+Exemplo de uso:
+```
+const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+const embedUrl = convertToEmbedUrl(url);
+console.log(embedUrl);
+```
+// Output: https://www.youtube.com/embed/dQw4w9WgXcQ
+
+
 ### 🛠️ Tecnologias Utilizadas
 React
 
@@ -154,7 +178,7 @@ yarn install
 ```
 
 ### 🗂️ Estrutura do Projeto
-
+```
 aluraflix/
 
 ├── node_modules/
@@ -211,7 +235,8 @@ aluraflix/
 
 ├── README.md
 
-└── vite.config.js
+└── vite.config.
+```
 
 ### 📄 Páginas Disponíveis
 Página Inicial: Exibe uma lista de vídeos.
@@ -313,27 +338,3 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 Documentação oficial do Swiper: [Swiper Docs](https://swiperjs.com/react)
 
-## 💻 Mini Tutorial de Acesso ao json-server
-### Instale o json-server:
-```
-npm install -g json-server
-```
-
-#### Crie um arquivo db.json com os dados desejados:
-```
-{
-  "videos": [
-    { "id": 1, "imagem": "link_to_image1", "area": "Video Area 1" },
-    { "id": 2, "imagem": "link_to_image2", "area": "Video Area 2" }
-  ]
-}
-```
-#### Inicie o json-server:
-
-```
-json-server --watch db.json --port 8080
-```
-
-#### Acesse a aplicação:
-
-Abra o navegador e vá para http://localhost:8080.
