@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
       <img src={logo} alt="Logo da Aluraflix" />
-      <p>Desafio ONE React feito por Fernanda Avila</p>
+      <p>Desafio ONE React</p>
     </footer>
   )
 }

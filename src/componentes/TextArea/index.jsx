@@ -6,7 +6,7 @@ const TextArea = (props) => {
       <label style={props.estiloCorLabel}>
         {props.label}
       </label>
-      <textarea rows="7" value={props.valor} required={props.obrigatorio} placeholder={props.placeholder} onChange={evento => props.aoAlterado(evento.target.value)} style={props.estiloCorCampoFormDescricao}>
+      <textarea rows="5" value={props.valor} required={props.obrigatorio} placeholder={props.placeholder} onChange={evento => props.aoAlterado(evento.target.value)} style={props.estiloCorCampoFormDescricao}>
 
       </textarea>
     </div>

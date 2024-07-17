@@ -36,7 +36,7 @@ const CardVideo = ({ video, aoDeletar, aoVideoSelecionado, videoBorderColor, btn
           <img src={video.imagem} alt={video.area} />
         </div>
       </Link>
-      <div className={styles.btnContainer} style={{ boxShadow: `0 0 13px ${btnColor}` }}>
+      <div className={styles.btnContainer} >
         <div className={styles.btn} onClick={() => excluirVideo(video.id)}>
           <img src={excluirBtn} alt='Botão de excluir' />EXCLUIR
         </div>

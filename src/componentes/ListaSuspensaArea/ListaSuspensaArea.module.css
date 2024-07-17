@@ -1,22 +1,21 @@
-gContainer {
+.gContainer {
     display: flex;
     flex-direction: column;
   }
   
   .gContainer label {
     display: block;
-    font-size: 25px;
-    margin-bottom: -60px;
+    font-size: 20px;
+    margin-bottom: -40px;
   }
   
   .gContainer select {
     background-color: #262626;
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     color: lightgray;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 10px;
-    height: 70px;
-    width: 570px;
+    height: 50px;
     padding-left: 4px;
     margin-top: 33px;
     text-transform: uppercase;
@@ -24,5 +23,5 @@ gContainer {
   
   .placeholderOption {
     color: lightgray;
-    font-size: 24px;
+    font-size: 20px;
   }
