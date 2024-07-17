@@ -31,7 +31,7 @@ const ModalEditarVideo = ({ video, aoFechar, aoAtualizar }) => {
   };
 
   const styleColorCampo = {
-    border: "3px solid #2271D1",
+    border: "1px solid #fff",
     backgroundColor: "#262626",
   };
 

@@ -16,6 +16,10 @@
     border: 4px solid #2271D1;
     border-radius: 15px;
   }
+
+  .dialog::-webkit-scrollbar {
+    background-color: transparent;
+  }
   
   .dialog h1 {
     align-self: flex-start;
